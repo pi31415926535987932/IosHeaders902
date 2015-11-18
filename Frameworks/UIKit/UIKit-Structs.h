@@ -14,14 +14,19 @@ typedef struct CGSize {
 	float height;
 } CGSize;
 
+/* crypto - removed as redefinition
 typedef struct __CFDictionary* CFDictionaryRef;
+*/
 
 typedef struct CGPoint {
 	float x;
 	float y;
 } CGPoint;
 
+
+/* crypto - removed as redefinition
 typedef struct __CFString* CFStringRef;
+*/
 
 typedef struct {
 	id field1;
@@ -478,7 +483,9 @@ typedef struct {
 	int edgeClip;
 } SCD_Struct_UI74;
 
+/* crypto - removed as redefinition
 typedef struct __CFSet* CFSetRef;
+*/
 
 typedef struct UIPeripheralAnimationGeometry {
 	CGPoint outPosition;
